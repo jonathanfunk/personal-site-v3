@@ -3,9 +3,9 @@ import Hero from './../components/Hero';
 
 export default function Home() {
 	return (
-		<div className=' flex'>
+		<div className='lg:flex'>
 			<Hero />
-			<main className='min-h-screen w-1/2 bg-slate-50'></main>
+			<main className='lg:min-h-screen lg:w-1/2 bg-slate-50'></main>
 		</div>
 	);
 }
