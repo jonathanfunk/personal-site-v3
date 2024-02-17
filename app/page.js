@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import Hero from '@/components/Hero';
 import counters from '@/data/counters';
+import Counter from '@/components/Counter';
 import CTA from '@/components/CTA';
 
 export default function Home() {
@@ -9,7 +10,7 @@ export default function Home() {
 			<Hero />
 			<main className='lg:w-1/2 lg:ml-[50%]'>
 				<section className='lg:min-h-screen bg-seance-50'></section>
-				<section className='px-7 py-20 lg:px-20 lg:py-36'>
+				<section className='px-7 py-20 lg:px-20 lg:py-36' id='about'>
 					<div className='container max-w-xl'>
 						<h2 className='text-3xl mb-6 text-seance-950 font-bold'>
 							About Me
@@ -40,10 +41,7 @@ export default function Home() {
 				<section className='bg-seance-950 px-7 py-11 lg:p-20'>
 					<div className='container lg:grid lg:grid-cols-3 text-center text-white'>
 						{counters.map((counter, i) => (
-							<div className=' mb-8 lg:mb-0' key={i}>
-								<h3 className='text-5xl font-bold mb-3'>{counter.number}+</h3>
-								<p className='text-xl'>{counter.title}</p>
-							</div>
+							<Counter key={i} number={counter.number} title={counter.title} />
 						))}
 					</div>
 				</section>
