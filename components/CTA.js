@@ -5,8 +5,10 @@ const Hero = () => {
 				<h2 className='text-3xl mb-6 text-white font-bold'>
 					Ready to Discuss Your Project?
 				</h2>
-				<p className='text-white text-lg mb-8'>
-					Reach out to discuss your unique web design needs and goals.
+				<p className='text-white text-base mb-8 leading-relaxed'>
+					Are you spending more time in front of a computer than on your
+					business? Schedule a call or email me at{' '}
+					<a href='jon.m.funk@gmail.com'>jon.m.funk@gmail.com</a>.
 				</p>
 				<div className='flex flex-col md:flex-row md:justify-center'>
 					<a
@@ -16,10 +18,10 @@ const Hero = () => {
 						Schedule a Call
 					</a>
 					<a
-						className='text-center py-3 px-6 text-white font-bold border-solid border border-white rounded'
-						href='#'
+						className='text-center py-3 px-6 text-white font-semibold tracking-wide border-solid border border-white rounded'
+						href='mailto:'
 					>
-						See Projects
+						Send email
 					</a>
 				</div>
 			</div>

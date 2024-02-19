@@ -1,7 +1,9 @@
 import Image from 'next/image';
 import Hero from '@/components/Hero';
 import counters from '@/data/counters';
+import projects from '@/data/projects';
 import Counter from '@/components/Counter';
+import ProjectCard from '@/components/ProjectCard';
 import CTA from '@/components/CTA';
 
 export default function Home() {
@@ -41,22 +43,27 @@ export default function Home() {
 				<section className='bg-seance-950 px-7 py-11 lg:p-20'>
 					<div className='container lg:grid lg:grid-cols-3 text-center text-white'>
 						{counters.map((counter, i) => (
-							<Counter key={i} number={counter.number} title={counter.title} />
+							<Counter key={i} {...counter} />
 						))}
 					</div>
 				</section>
 				<section className='px-7 py-20 lg:px-20 lg:py-36' id='projects'>
 					<div className='container'>
-						<h2 className='text-3xl mb-6 text-seance-950 font-bold max-w-xl'>
-							Projects
+						<h2 className='text-3xl mb-4 text-seance-950 font-bold max-w-xl'>
+							Featured Projects
 						</h2>
 						<p className='text-seance-900 text-xl font-semibold mb-6 max-w-xl'>
 							I&lsquo;ve worked with diverse businesses, from solopreneurs to
 							medium-sized companies.
 						</p>
-						<div>
+						<div className='grid gap-6 lg:grid-cols-2 mb-8'>
+							{projects.map((project, i) => (
+								<ProjectCard {...project} key={i} />
+							))}
+						</div>
+						<div className='flex justify-center'>
 							<a
-								className='py-3 px-6 text-white font-bold border-solid border border-seance-900 rounded bg-seance-900 mr-6 inline-block shadow-md'
+								className='py-3 px-6 text-white font-bold border-solid border border-seance-900 rounded bg-seance-900 inline-block shadow-md text-center'
 								href='#'
 							>
 								Schedule a Call
