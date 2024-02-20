@@ -5,6 +5,7 @@ import projects from '@/data/projects';
 import Counter from '@/components/Counter';
 import ProjectCard from '@/components/ProjectCard';
 import CTA from '@/components/CTA';
+import CalendlyDynamic from '@/components/CalendlyDynamic';
 
 export default function Home() {
 	return (
@@ -14,10 +15,10 @@ export default function Home() {
 				<section className='lg:min-h-screen bg-seance-50'></section>
 				<section className='px-7 py-20 lg:px-20 lg:py-36' id='about'>
 					<div className='container max-w-xl'>
-						<h2 className='text-3xl mb-6 text-seance-950 font-bold'>
+						<h2 className='text-3xl mb-4 text-seance-950 font-bold'>
 							About Me
 						</h2>
-						<p className='text-seance-900 text-xl font-semibold mb-6'>
+						<p className='text-xl text-seance-950 mb-6 leading-relaxed'>
 							I specialize in creating tailored website solutions for businesses
 							like yours, helping you achieve your online goals.
 						</p>
@@ -31,12 +32,7 @@ export default function Home() {
 							to transform your online presence and drive tangible results.
 						</p>
 						<div>
-							<a
-								className='py-3 px-6 text-white font-bold border-solid border border-seance-900 rounded bg-seance-900 mr-6 inline-block shadow-md'
-								href='#'
-							>
-								Schedule a Call
-							</a>
+							<CalendlyDynamic className='btn text-white border-seance-900 bg-seance-900 shadow-md' />
 						</div>
 					</div>
 				</section>
@@ -52,9 +48,18 @@ export default function Home() {
 						<h2 className='text-3xl mb-4 text-seance-950 font-bold max-w-xl'>
 							Featured Projects
 						</h2>
-						<p className='text-seance-900 text-xl font-semibold mb-6 max-w-xl'>
+						<p className='text-xl text-seance-950 mb-6 leading-relaxed max-w-xl'>
 							I&lsquo;ve worked with diverse businesses, from solopreneurs to
-							medium-sized companies.
+							medium-sized companies. These are a small selection of projects
+							I&lsquo;ve worked on as a web designer/developer at{' '}
+							<a
+								href='https://rtown.ca/'
+								target='_blank'
+								rel='noreferrer nofollow'
+							>
+								RTOWN
+							</a>
+							.
 						</p>
 						<div className='grid gap-6 lg:grid-cols-2 mb-8'>
 							{projects.map((project, i) => (
@@ -62,12 +67,7 @@ export default function Home() {
 							))}
 						</div>
 						<div className='flex justify-center'>
-							<a
-								className='py-3 px-6 text-white font-bold border-solid border border-seance-900 rounded bg-seance-900 inline-block shadow-md text-center'
-								href='#'
-							>
-								Schedule a Call
-							</a>
+							<CalendlyDynamic className='btn text-white border-seance-900 bg-seance-900 shadow-md' />
 						</div>
 					</div>
 				</section>

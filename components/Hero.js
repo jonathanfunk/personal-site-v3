@@ -3,7 +3,7 @@ import CalendlyDynamic from './CalendlyDynamic';
 
 const Hero = () => {
 	return (
-		<section className='min-h-96 px-8 py-20 flex items-center flex-wrap bg-gradient-to-br from-seance-950 to-seance-800 lg:min-h-screen lg:w-1/2 lg:px-20 lg:fixed'>
+		<section className='min-h-96 px-8 pb-20 pt-32 flex items-center flex-wrap bg-gradient-to-br from-seance-950 to-seance-800 lg:min-h-screen lg:w-1/2 lg:px-20 lg:fixed'>
 			<div className='text-white max-w-xl'>
 				<h4 className='font-semibold mb-6 text-seance-200'>
 					Hi! My name is Jonathan Funk.
@@ -16,11 +16,11 @@ const Hero = () => {
 					performance and drive conversions.
 				</p>
 				<div className='flex flex-col md:flex-row'>
-					<CalendlyDynamic />
+					<CalendlyDynamic className='btn text-seance-700 bg-white mb-3 md:mr-6 md:mb-0' />
 					<Link
 						href='#projects'
 						scroll={true}
-						className='text-center py-3 px-6 text-white font-bold border-solid border border-white rounded'
+						className='btn text-white border-white'
 					>
 						See Projects
 					</Link>

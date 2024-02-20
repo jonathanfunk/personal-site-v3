@@ -7,22 +7,27 @@ const Footer = () => {
 				Copyright © {new Date().getFullYear()} Jonathan Funk
 			</p>
 			<div className='flex justify-between gap-9'>
-				<a href='mailto:jon.m.funk@gmail.com'>
-					<Envelope className='fill-current h-4 w-4 text-seance-300' />
+				<a
+					href='mailto:jon.m.funk@gmail.com'
+					className='text-seance-300 hover:text-white'
+				>
+					<Envelope className='fill-current h-4 w-4' />
 				</a>
 				<a
 					href='https://github.com/jonathanfunk'
 					target='_blank'
 					rel='noopener noreferrer'
+					className='text-seance-300 hover:text-white'
 				>
-					<Github className='fill-current h-4 w-4 text-seance-300' />
+					<Github className='fill-current h-4 w-4' />
 				</a>
 				<a
 					href='https://www.linkedin.com/in/jonathan-funk/'
 					target='_blank'
 					rel='noopener noreferrer'
+					className='text-seance-300 hover:text-white'
 				>
-					<Linkedin className='fill-current h-4 w-4 text-seance-300' />
+					<Linkedin className='fill-current h-4 w-4' />
 				</a>
 			</div>
 		</footer>

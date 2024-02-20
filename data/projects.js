@@ -1,4 +1,4 @@
-const counters = [
+const projects = [
 	{
 		link: 'https://raisingwealth.com/',
 		title: 'Raising Wealth',
@@ -45,4 +45,4 @@ const counters = [
 	},
 ];
 
-export default counters;
+export default projects;

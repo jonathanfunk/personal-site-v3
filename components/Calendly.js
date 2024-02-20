@@ -2,7 +2,7 @@
 import { PopupButton } from 'react-calendly';
 import { useEffect, useState } from 'react';
 
-const Calendly = () => {
+const Calendly = ({ className }) => {
 	const [rootElement, setRootElement] = useState(null);
 
 	useEffect(() => {
@@ -17,7 +17,7 @@ const Calendly = () => {
 			url='https://calendly.com/jonathan-funk/30-min'
 			text='Schedule a Call'
 			rootElement={rootElement}
-			className='text-center py-3 px-6 text-seance-700 font-bold border-solid border border-white rounded bg-white g-white mb-3 md:mr-6 md:mb-0'
+			className={className}
 		/>
 	);
 };
