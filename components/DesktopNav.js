@@ -5,16 +5,22 @@ import navLinks from '@/data/navLinks';
 const DesktopNav = () => {
 	return (
 		<nav className='gap-6 hidden lg:flex'>
-			{navLinks.map((link, i) => (
-				<Link
-					className='text-seance-300 hover:text-white'
-					href={link.href}
-					key={i}
-				>
-					{link.title}
-				</Link>
-			))}
-			<CalendlyDynamic className='text-seance-300 hover:text-white transition-colors duration-500' />
+			{navLinks.map((link, i) =>
+				link.href === 'https://calendly.com/jonathan-funk/30-min' ? (
+					<CalendlyDynamic
+						key={i}
+						className='text-seance-300 hover:text-white transition-colors duration-500'
+					/>
+				) : (
+					<Link
+						className='text-seance-300 hover:text-white'
+						href={link.href}
+						key={i}
+					>
+						{link.title}
+					</Link>
+				)
+			)}
 		</nav>
 	);
 };

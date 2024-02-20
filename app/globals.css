@@ -13,6 +13,6 @@
 
 @layer components {
 	.btn {
-		@apply inline-block text-center py-3 px-6 font-semibold text-base tracking-wider border-solid border rounded;
+		@apply inline-block text-center py-3 px-6 font-semibold text-base tracking-wider border-solid border rounded transition-colors duration-500;
 	}
 }

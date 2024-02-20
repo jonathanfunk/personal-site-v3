@@ -19,9 +19,9 @@ const Hero = () => {
 					.
 				</p>
 				<div className='flex flex-col md:flex-row md:justify-center'>
-					<CalendlyDynamic className='btn text-seance-700 bg-white mb-3 md:mr-6 md:mb-0' />
+					<CalendlyDynamic className='btn text-seance-700 bg-white hover:bg-seance-900 hover:text-white hover:border-seance-900 mb-3 md:mr-6 md:mb-0' />
 					<a
-						className='btn text-white border-white'
+						className='btn text-white border-white hover:bg-white hover:text-seance-700'
 						href='mailto:jon.m.funk@gmail.com'
 					>
 						Send email

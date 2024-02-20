@@ -12,7 +12,22 @@ export default function Home() {
 		<div>
 			<Hero />
 			<main className='lg:w-1/2 lg:ml-[50%]'>
-				<section className='lg:min-h-screen bg-seance-50'></section>
+				<section className='lg:min-h-screen bg-seance-50'>
+					<Image
+						className='hidden md:block w-full lg:min-h-screen object-cover'
+						src='/images/desktop-mocks.webp'
+						alt='Desktop Mockups'
+						width={1600}
+						height={1600}
+					/>
+					<Image
+						className='md:hidden w-full'
+						src='/images/mobile-mocks.webp'
+						alt='Mobile Mockups'
+						width={600}
+						height={300}
+					/>
+				</section>
 				<section className='px-7 py-20 lg:px-20 lg:py-36' id='about'>
 					<div className='container max-w-xl'>
 						<h2 className='text-3xl mb-4 text-seance-950 font-bold'>
@@ -32,7 +47,7 @@ export default function Home() {
 							to transform your online presence and drive tangible results.
 						</p>
 						<div>
-							<CalendlyDynamic className='btn text-white border-seance-900 bg-seance-900 shadow-md' />
+							<CalendlyDynamic className='btn text-white border-seance-900 bg-seance-900 shadow-md hover:bg-seance-950 hover:border-seance-950' />
 						</div>
 					</div>
 				</section>
@@ -67,7 +82,7 @@ export default function Home() {
 							))}
 						</div>
 						<div className='flex justify-center'>
-							<CalendlyDynamic className='btn text-white border-seance-900 bg-seance-900 shadow-md' />
+							<CalendlyDynamic className='btn text-white border-seance-900 bg-seance-900 shadow-md hover:bg-seance-950 hover:border-seance-950' />
 						</div>
 					</div>
 				</section>
