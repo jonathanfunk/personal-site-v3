@@ -19,6 +19,7 @@ export default function Home() {
 						alt='Desktop Mockups'
 						width={1600}
 						height={1600}
+						priority
 					/>
 					<Image
 						className='md:hidden w-full'
@@ -26,6 +27,7 @@ export default function Home() {
 						alt='Mobile Mockups'
 						width={600}
 						height={300}
+						priority
 					/>
 				</section>
 				<section className='px-7 py-20 lg:px-20 lg:py-36' id='about'>
@@ -34,17 +36,16 @@ export default function Home() {
 							About Me
 						</h2>
 						<p className='text-xl text-seance-950 mb-6 leading-relaxed'>
-							I specialize in creating tailored website solutions for businesses
-							like yours, helping you achieve your online goals.
+							I am dedicated to fostering relations and achieving your online
+							goals through tailored web solutions.
 						</p>
-						<p className='text-lg mb-8'>
-							I believe in creating websites that blend captivating design with
-							exceptional user experiences. Through transparency, open
-							communication, and a focus on your satisfaction, I collaborate
-							closely with you to bring your vision to life. With a finger on
-							the pulse of industry trends, I incorporate innovative solutions
-							that give your website a competitive edge. Let&lsquo;s collaborate
-							to transform your online presence and drive tangible results.
+						<p className='mb-8'>
+							Your website is a valuable asset for your business and has the
+							potential to pay for itself. While anyone can build a website, it
+							takes a special eye to do it right. With my expertise, I go beyond
+							mere visual appeal and focus on crafting websites with a clear
+							purpose. Let&lsquo;s collaborate to transform your online presence
+							and achieve tangible results.
 						</p>
 						<div>
 							<CalendlyDynamic className='btn text-white border-seance-900 bg-seance-900 shadow-md hover:bg-seance-950 hover:border-seance-950' />
@@ -60,22 +61,23 @@ export default function Home() {
 				</section>
 				<section className='px-7 py-20 lg:px-20 lg:py-36' id='projects'>
 					<div className='container'>
-						<h2 className='text-3xl mb-4 text-seance-950 font-bold max-w-xl'>
-							Featured Projects
-						</h2>
-						<p className='text-xl text-seance-950 mb-6 leading-relaxed max-w-xl'>
-							I&lsquo;ve worked with diverse businesses, from solopreneurs to
-							medium-sized companies. These are a small selection of projects
-							I&lsquo;ve worked on as a web designer/developer at{' '}
-							<a
-								href='https://rtown.ca/'
-								target='_blank'
-								rel='noreferrer nofollow'
-							>
-								RTOWN
-							</a>
-							.
-						</p>
+						<div className='max-w-xl'>
+							<h2 className='text-3xl mb-4 text-seance-950 font-bold'>
+								Featured Projects
+							</h2>
+							<p className='mb-8'>
+								I&lsquo;ve worked with diverse businesses, from solopreneurs to
+								medium-sized companies. These are a small selection of projects
+								I&lsquo;ve worked on as a web designer/developer at{' '}
+								<a
+									href='https://rtown.ca/'
+									target='_blank'
+									rel='noreferrer nofollow'
+								>
+									RTOWN
+								</a>
+							</p>
+						</div>
 						<div className='grid gap-6 lg:grid-cols-2 mb-8'>
 							{projects.map((project, i) => (
 								<ProjectCard {...project} key={i} />

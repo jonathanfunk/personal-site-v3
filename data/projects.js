@@ -32,7 +32,7 @@ const projects = [
 		link: 'https://humblemfg.com/',
 		title: 'Humble MFG',
 		description:
-			'A custom sheet metal fabricator building custom parts and components for businesses across BC, Canada and the US',
+			'A custom sheet metal fabricator building parts/components for businesses across Canada and the US',
 		thumbnail: '/images/thumbnail-humble-mfg.webp',
 		year: 2019,
 	},

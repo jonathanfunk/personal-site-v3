@@ -10,7 +10,7 @@ const Counter = ({ number, title }) => {
 				</CountUp>
 				+
 			</h3>
-			<p className='text-xl'>{title}</p>
+			<p className='text-lg'>{title}</p>
 		</div>
 	);
 };

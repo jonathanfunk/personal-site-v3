@@ -14,8 +14,8 @@ const Hero = () => {
 					based in Vancouver, BC
 				</h1>
 				<p className='text-seance-200 max-w-md lg:text-lg mb-8'>
-					I create minimalistic websites that prioritize ease of use,
-					performance and drive conversions.
+					I create minimalistic websites that prioritize ease of use and
+					performance.
 				</p>
 				<div className='flex flex-col md:flex-row'>
 					<CalendlyDynamic className='btn text-seance-700 bg-white hover:bg-seance-900 hover:text-white hover:border-seance-900 mb-3 md:mr-6 md:mb-0' />
