@@ -49,7 +49,7 @@ export default function Home() {
 						alt='Mobile Mockups'
 						width={600}
 						height={300}
-						loading='lazy'
+						priority
 					/>
 				</section>
 				<section className='px-7 py-20 lg:px-20 lg:py-36' id='about'>
