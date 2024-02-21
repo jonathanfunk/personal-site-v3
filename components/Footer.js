@@ -4,7 +4,8 @@ const Footer = () => {
 	return (
 		<footer className=' bg-seance-950 border-t border-seance-800 px-20 py-5 lg:w-1/2 lg:ml-[50%] lg:flex lg:justify-between lg:items-center'>
 			<p className='text-sm text-seance-300 mb-3 lg:mb-0'>
-				Copyright © {new Date().getFullYear()} Jonathan Funk
+				Copyright © {new Date().getFullYear()} Jonathan Funk. Made with
+				TailwindCSS & Next.js.
 			</p>
 			<div className='flex justify-between gap-9'>
 				<a
