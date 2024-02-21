@@ -14,6 +14,7 @@ const ProjectCard = ({ link, title, description, thumbnail }) => {
 				width={600}
 				height={300}
 				className='object-cover w-full h-full group-hover:scale-110 transition-transform duration-500'
+				loading='lazy'
 			/>
 			<div className='absolute w-full bottom-0 left-0 p-6 pt-9 bg-gradient-to-b from-transparent to-seance-950 text-white'>
 				<h3 className='font-bold'>{title}</h3>
