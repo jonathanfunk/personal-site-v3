@@ -7,6 +7,28 @@ import ProjectCard from '@/components/ProjectCard';
 import CTA from '@/components/CTA';
 import CalendlyDynamic from '@/components/CalendlyDynamic';
 
+export const metadata = {
+	title: 'Jonathan Funk | Web Designer',
+	description:
+		'I create minimalistic websites that prioritize ease of use and performance. Send an email to jon.m.funk@gmail.com to get started!',
+	openGraph: {
+		title: 'Jonathan Funk | Web Designer',
+		description:
+			'I create minimalistic websites that prioritize ease of use and performance. Send an email to jon.m.funk@gmail.com to get started!',
+		url: 'https://www.jonathanfunk.ca',
+		siteName: 'Jonathan Funk | Web Designer',
+		images: [
+			{
+				url: 'https://www.jonathanfunk.ca/images/mobile-mocks.webp',
+				width: 600,
+				height: 300,
+			},
+		],
+		locale: 'en_CA',
+		type: 'website',
+	},
+};
+
 export default function Home() {
 	return (
 		<div>
@@ -27,7 +49,7 @@ export default function Home() {
 						alt='Mobile Mockups'
 						width={600}
 						height={300}
-						priority
+						loading='lazy'
 					/>
 				</section>
 				<section className='px-7 py-20 lg:px-20 lg:py-36' id='about'>
