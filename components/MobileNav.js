@@ -42,7 +42,7 @@ const MobileNav = () => {
 					link.href === 'https://calendly.com/jonathan-funk/30-min' ? (
 						<CalendlyDynamic
 							key={i}
-							className={`text-seance-600 text-2xl py-4 block transition-all delay-300 duration-500 ${
+							className={`text-seance-700 text-2xl font-semibold py-4 block transition-all delay-300 duration-500 ${
 								navShow
 									? 'opacity-100 translate-y-0'
 									: 'opacity-0 translate-y-1'
@@ -50,7 +50,7 @@ const MobileNav = () => {
 						/>
 					) : (
 						<Link
-							className={`text-2xl py-3 block transition-all delay-300 duration-500 ${
+							className={`text-seance-700 text-2xl py-4 block transition-all delay-300 duration-500 ${
 								navShow
 									? 'opacity-100 translate-y-0'
 									: 'opacity-0 translate-y-1'

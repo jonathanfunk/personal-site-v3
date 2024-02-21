@@ -9,7 +9,7 @@ const DesktopNav = () => {
 				link.href === 'https://calendly.com/jonathan-funk/30-min' ? (
 					<CalendlyDynamic
 						key={i}
-						className='text-seance-300 hover:text-white transition-colors duration-500'
+						className='text-seance-300 font-semibold hover:text-white transition-colors duration-500'
 					/>
 				) : (
 					<Link
