@@ -11,8 +11,8 @@ const ProjectCard = ({ link, title, description, thumbnail }) => {
 			<Image
 				src={thumbnail}
 				alt={title}
-				width={600}
-				height={300}
+				width={400}
+				height={200}
 				className='object-cover w-full h-full group-hover:scale-110 transition-transform duration-500'
 				loading='lazy'
 			/>
