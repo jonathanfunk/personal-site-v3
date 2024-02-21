@@ -23,6 +23,7 @@ const MobileNav = () => {
 			<button
 				className='relative z-20 w-[30px] h-[30px] flex'
 				onClick={onToggleNav}
+				aria-label='Navigation toggle'
 			>
 				<div
 					className={`relative translate-y-[13px] transition-all duration-300 w-[30px] h-[3px] rounded before:rounded after:rounded before:transition-bottom before:duration-300 before:ease-out before:content-[""] before:w-[30px] before:h-[3px] before:absolute before:left-0 before:bg-seance-300 after:content-[""] after:w-[30px] after:h-[3px] after:absolute after:left-0 after:bg-seance-300 after:transition-top ${

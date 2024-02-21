@@ -32,7 +32,11 @@ const Header = () => {
 			}`}
 		>
 			<div className='container flex justify-between items-center'>
-				<Link href='/' className='text-seance-300 hover:text-white'>
+				<Link
+					href='/'
+					className='text-seance-300 hover:text-white'
+					aria-label='Home page link'
+				>
 					<Code className='fill-current h-8 w-8' />
 				</Link>
 				<DesktopNav />

@@ -16,7 +16,7 @@ const ProjectCard = ({ link, title, description, thumbnail }) => {
 				className='object-cover w-full h-full group-hover:scale-110 transition-transform duration-500'
 			/>
 			<div className='absolute w-full bottom-0 left-0 p-6 pt-9 bg-gradient-to-b from-transparent to-seance-950 text-white'>
-				<h5 className='font-bold'>{title}</h5>
+				<h3 className='font-bold'>{title}</h3>
 				<p className='text-sm'>{description}</p>
 			</div>
 		</a>

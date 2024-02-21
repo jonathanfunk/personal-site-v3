@@ -10,6 +10,7 @@ const Footer = () => {
 				<a
 					href='mailto:jon.m.funk@gmail.com'
 					className='text-seance-300 hover:text-white'
+					aria-label='Email link'
 				>
 					<Envelope className='fill-current h-4 w-4' />
 				</a>
@@ -18,6 +19,7 @@ const Footer = () => {
 					target='_blank'
 					rel='noopener noreferrer'
 					className='text-seance-300 hover:text-white'
+					aria-label='Github link'
 				>
 					<Github className='fill-current h-4 w-4' />
 				</a>
@@ -26,6 +28,7 @@ const Footer = () => {
 					target='_blank'
 					rel='noopener noreferrer'
 					className='text-seance-300 hover:text-white'
+					aria-label='Linkedin link'
 				>
 					<Linkedin className='fill-current h-4 w-4' />
 				</a>

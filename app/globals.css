@@ -7,7 +7,7 @@
 		@apply scroll-smooth;
 	}
 	a {
-		@apply text-seance-600 hover:text-seance-800 transition-colors duration-500;
+		@apply text-seance-700 hover:text-seance-900 transition-colors duration-500;
 	}
 }
 
