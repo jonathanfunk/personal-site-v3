@@ -2,7 +2,7 @@ const projects = [
 	{
 		link: 'https://raisingwealth.com/',
 		title: 'Raising Wealth',
-		description: 'Vancouver Real Estate investement company',
+		description: 'Vancouver Real Estate investment company',
 		thumbnail: '/images/thumbnail-raising-wealth.webp',
 		year: 2023,
 	},
@@ -16,7 +16,7 @@ const projects = [
 	},
 	{
 		link: 'https://montereybayrvrentals.com/',
-		title: 'Monterey Bay RV Renatls',
+		title: 'Monterey Bay RV Rentals',
 		description: 'RV rental company based in Monterey Bay, California',
 		thumbnail: '/images/thumbnail-monterey-bay-rv-rentals.webp',
 		year: 2021,
