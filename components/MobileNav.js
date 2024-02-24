@@ -1,11 +1,27 @@
 'use client';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import CalendlyDynamic from './CalendlyDynamic';
 import navLinks from '@/data/navLinks';
 
 const MobileNav = () => {
 	const [navShow, setNavShow] = useState(false);
+	const [scrollPositionTop, setscrollPositionTop] = useState(true);
+
+	const handleScroll = () => {
+		if (window.scrollY > 0) {
+			setscrollPositionTop(false);
+		} else {
+			setscrollPositionTop(true);
+		}
+	};
+
+	useEffect(() => {
+		window.addEventListener('scroll', handleScroll);
+		return () => {
+			window.removeEventListener('scroll', handleScroll);
+		};
+	}, []);
 
 	const onToggleNav = () => {
 		setNavShow((status) => {
@@ -19,17 +35,17 @@ const MobileNav = () => {
 	};
 
 	return (
-		<div className='lg:hidden'>
+		<div className='fixed top-7 right-7 lg:hidden'>
 			<button
-				className='relative z-20 w-[30px] h-[30px] flex'
+				className='relative z-20 w-[45px] h-[45px] flex bg-seance-950 rounded-full'
 				onClick={onToggleNav}
 				aria-label='Navigation toggle'
 			>
 				<div
-					className={`relative translate-y-[13px] transition-all duration-300 w-[30px] h-[3px] rounded before:rounded after:rounded before:transition-bottom before:duration-300 before:ease-out before:content-[""] before:w-[30px] before:h-[3px] before:absolute before:left-0 before:bg-seance-300 after:content-[""] after:w-[30px] after:h-[3px] after:absolute after:left-0 after:bg-seance-300 after:transition-top ${
+					className={`relative origin top-1/2 left-1/2 translate-y-[-50%] translate-x-[-50%] transition-all duration-300 w-[20px] h-[2px] rounded before:rounded after:rounded before:transition-bottom before:duration-300 before:ease-out before:content-[""] before:w-[20px] before:h-[2px] before:absolute before:left-0 before:bg-seance-300 after:content-[""] after:w-[20px] after:h-[2px] after:absolute after:left-0 after:bg-seance-300 after:transition-top ${
 						navShow
 							? 'bg-transparent before:bottom-0 before:-rotate-45 after:top-0 after:rotate-45'
-							: 'bg-seance-300 before:bottom-[13px] after:top-[13px]'
+							: 'bg-seance-300 before:bottom-[8px] after:top-[8px]'
 					}`}
 				></div>
 			</button>
