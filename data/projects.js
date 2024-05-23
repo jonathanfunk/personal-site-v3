@@ -1,13 +1,5 @@
 const projects = [
 	{
-		link: 'https://tradepros.ca/',
-		title: 'TradePros',
-		description:
-			'A project management office with a focus on construction shop drawings and quantity surveys. ',
-		thumbnail: '/images/thumbnail-trade-pros.webp',
-		year: 2023,
-	},
-	{
 		link: 'https://montereybayrvrentals.com/',
 		title: 'Monterey Bay RV Rentals',
 		description: 'RV rental company based in Monterey Bay, California',
@@ -27,6 +19,14 @@ const projects = [
 		description: 'Campervan rental company based in Hallandale Beach, Florida',
 		thumbnail: '/images/thumbnail-ondevan-campervan.webp',
 		year: 2020,
+	},
+	{
+		link: 'https://tradepros.ca/',
+		title: 'TradePros',
+		description:
+			'A project management office with a focus on construction shop drawings and quantity surveys. ',
+		thumbnail: '/images/thumbnail-trade-pros.webp',
+		year: 2023,
 	},
 	{
 		link: 'https://humblemfg.com/',

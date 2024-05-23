@@ -13,7 +13,7 @@ const DesktopNav = () => {
 					/>
 				) : (
 					<Link
-						className='text-seance-300 hover:text-white'
+						className='page-scroll text-seance-300 hover:text-white'
 						href={link.href}
 						key={i}
 					>
