@@ -34,7 +34,7 @@ export default function Home() {
 		<div>
 			<Hero />
 			<main className='lg:w-1/2 lg:ml-[50%]'>
-				<section className='lg:min-h-screen bg-seance-50'>
+				<section className='lg:min-h-screen bg-seance-50' id='home'>
 					<Image
 						className='hidden md:block w-full lg:min-h-screen object-cover'
 						src='/images/desktop-mocks.webp'
