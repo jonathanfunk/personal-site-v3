@@ -10,11 +10,11 @@ import CalendlyDynamic from '@/components/CalendlyDynamic';
 export const metadata = {
 	title: 'Jonathan Funk | Web Designer',
 	description:
-		'I create minimalistic websites that prioritize ease of use and performance. Send an email to jon.m.funk@gmail.com to get started!',
+		'I create minimalistic websites that prioritize ease of use and performance. Send an email to web@jonathanfunk.ca to get started!',
 	openGraph: {
 		title: 'Jonathan Funk | Web Designer',
 		description:
-			'I create minimalistic websites that prioritize ease of use and performance. Send an email to jon.m.funk@gmail.com to get started!',
+			'I create minimalistic websites that prioritize ease of use and performance. Send an email to web@jonathanfunk.ca to get started!',
 		url: 'https://www.jonathanfunk.ca',
 		siteName: 'Jonathan Funk | Web Designer',
 		images: [

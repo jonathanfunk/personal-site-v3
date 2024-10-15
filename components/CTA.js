@@ -11,10 +11,10 @@ const Hero = () => {
 					Are you spending more time in front of a computer than working on your
 					business? Schedule a call or email me at{' '}
 					<a
-						href='mailto:jon.m.funk@gmail.com'
+						href='mailto:web@jonathanfunk.ca'
 						className=' text-seance-300 hover:text-white'
 					>
-						jon.m.funk@gmail.com
+						web@jonathanfunk.ca
 					</a>
 					.
 				</p>
@@ -22,7 +22,7 @@ const Hero = () => {
 					<CalendlyDynamic className='btn text-seance-700 bg-white hover:bg-seance-900 hover:text-white hover:border-seance-900 mb-3 md:mr-6 md:mb-0' />
 					<a
 						className='btn text-white border-white hover:bg-white hover:text-seance-700'
-						href='mailto:jon.m.funk@gmail.com'
+						href='mailto:web@jonathanfunk.ca'
 					>
 						Send email
 					</a>

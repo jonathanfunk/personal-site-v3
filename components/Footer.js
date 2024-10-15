@@ -9,7 +9,7 @@ const Footer = () => {
 			</p>
 			<div className='flex justify-between gap-9'>
 				<a
-					href='mailto:jon.m.funk@gmail.com'
+					href='mailto:web@jonathanfunk.ca'
 					className='text-seance-300 hover:text-white'
 					aria-label='Email link'
 				>
