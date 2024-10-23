@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import { ExternalLink } from './icons';
 
 const ProjectCard = ({ link, title, description, thumbnail }) => {
 	return (
@@ -17,7 +18,11 @@ const ProjectCard = ({ link, title, description, thumbnail }) => {
 				loading='lazy'
 			/>
 			<div className='absolute w-full bottom-0 left-0 p-6 pt-9 bg-gradient-to-b from-transparent to-seance-950 text-white'>
-				<h3 className='font-bold'>{title}</h3>
+				<div className='flex items-center'>
+					<h3 className='font-bold mr-2'>{title}</h3>{' '}
+					<ExternalLink className='fill-current h-4 w-4' />
+				</div>
+
 				<p className='text-sm'>{description}</p>
 			</div>
 		</a>

@@ -10,7 +10,7 @@ export default function RootLayout({ children }) {
 	return (
 		<html lang='en'>
 			<body className={`${inter.className} antialiased text-slate-600 text-lg`}>
-				<GoogleTagManager gtmId='GTM-TRMDM8BD' />
+				{/* <GoogleTagManager gtmId='GTM-TRMDM8BD' /> */}
 				<Header />
 				<div id='__next'>{children}</div>
 				<Footer />

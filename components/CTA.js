@@ -24,7 +24,7 @@ const Hero = () => {
 						className='btn text-white border-white hover:bg-white hover:text-seance-700'
 						href='mailto:web@jonathanfunk.ca'
 					>
-						Send email
+						Send Email
 					</a>
 				</div>
 			</div>

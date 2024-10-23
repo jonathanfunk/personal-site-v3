@@ -110,6 +110,25 @@ export default function Home() {
 						</div>
 					</div>
 				</section>
+				<section
+					className='px-7 py-20 lg:px-20 lg:py-36 bg-slate-50'
+					id='testimonial'
+				>
+					<div className='container'>
+						<div className='max-w-3xl'>
+							<p className='text-2xl text-center mb-7 text-seance-950'>
+								&quot;Jonathan delivered a website redesign that transformed our
+								online presence. His thoughtful approach and problem-solving
+								skills were evident, even under tight deadlines. The increased
+								traffic and customer feedback speak volumes about his work. We
+								couldn&lsquo;t be happier.&quot;
+							</p>
+							<p className='text-lg text-center'>
+								Allison Abbott, Business Owner
+							</p>
+						</div>
+					</div>
+				</section>
 				<CTA />
 			</main>
 		</div>
