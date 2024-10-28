@@ -6,6 +6,7 @@ import Counter from '@/components/Counter';
 import ProjectCard from '@/components/ProjectCard';
 import CTA from '@/components/CTA';
 import CalendlyDynamic from '@/components/CalendlyDynamic';
+import Banner from '@/components/Banner';
 
 export const metadata = {
 	title: 'Jonathan Funk | Web Designer',
@@ -35,14 +36,7 @@ export default function Home() {
 			<Hero />
 			<main className='lg:w-1/2 lg:ml-[50%]'>
 				<section className='lg:min-h-screen bg-seance-50' id='home'>
-					<Image
-						className='hidden md:block w-full lg:min-h-screen object-cover'
-						src='/images/desktop-mocks.webp'
-						alt='Desktop Mockups'
-						width={1600}
-						height={1600}
-						priority
-					/>
+					<Banner />
 					<Image
 						className='md:hidden w-full'
 						src='/images/mobile-mocks.webp'
@@ -53,7 +47,7 @@ export default function Home() {
 					/>
 				</section>
 				<section className='px-7 py-20 lg:px-20 lg:py-36' id='about'>
-					<div className='container max-w-xl'>
+					<div className='container lg:max-w-xl m-auto lg:m-0'>
 						<h2 className='text-3xl mb-4 text-seance-950 font-bold'>
 							About Me
 						</h2>
@@ -75,14 +69,14 @@ export default function Home() {
 					</div>
 				</section>
 				<section className='bg-seance-950 px-7 py-11 lg:p-20'>
-					<div className='container lg:grid lg:grid-cols-3 text-center text-white'>
+					<div className='container md:grid md:grid-cols-3 text-center text-white m-auto lg:m-0'>
 						{counters.map((counter, i) => (
 							<Counter key={i} {...counter} />
 						))}
 					</div>
 				</section>
 				<section className='px-7 py-20 lg:px-20 lg:py-36' id='projects'>
-					<div className='container'>
+					<div className='container m-auto lg:m-0'>
 						<div className='max-w-xl'>
 							<h2 className='text-3xl mb-4 text-seance-950 font-bold'>
 								Featured Projects
@@ -100,7 +94,7 @@ export default function Home() {
 								</a>
 							</p>
 						</div>
-						<div className='grid gap-6 lg:grid-cols-2 mb-8'>
+						<div className='grid gap-6 xl:grid-cols-2 mb-8'>
 							{projects.map((project, i) => (
 								<ProjectCard {...project} key={i} />
 							))}
@@ -114,7 +108,7 @@ export default function Home() {
 					className='px-7 py-20 lg:px-20 lg:py-36 bg-slate-50'
 					id='testimonial'
 				>
-					<div className='container'>
+					<div className='container m-auto lg:m-0'>
 						<div className='max-w-3xl'>
 							<p className='text-2xl text-center mb-7 text-seance-950'>
 								&quot;Jonathan delivered a website redesign that transformed our

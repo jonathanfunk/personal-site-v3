@@ -20,7 +20,7 @@ const ProjectCard = ({ link, title, description, thumbnail }) => {
 			<div className='absolute w-full bottom-0 left-0 p-6 pt-9 bg-gradient-to-b from-transparent to-seance-950 text-white'>
 				<div className='flex items-center'>
 					<h3 className='font-bold mr-2'>{title}</h3>{' '}
-					<ExternalLink className='fill-current h-4 w-4' />
+					<ExternalLink className='fill-current min-h-4 min-w-4' />
 				</div>
 
 				<p className='text-sm'>{description}</p>

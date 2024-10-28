@@ -3,7 +3,7 @@ import CalendlyDynamic from './CalendlyDynamic';
 const Hero = () => {
 	return (
 		<section className='bg-seance-950 px-7 py-20 lg:px-20 lg:py-36 flex justify-center'>
-			<div className='container max-w-xl text-center'>
+			<div className='container max-w-xl text-center m-auto lg:m-0'>
 				<h2 className='text-3xl mb-6 text-white font-bold'>
 					Ready to Discuss Your Project?
 				</h2>
