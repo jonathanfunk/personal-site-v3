@@ -36,7 +36,14 @@ export default function Home() {
 			<Hero />
 			<main className='lg:w-1/2 lg:ml-[50%]'>
 				<section className='lg:min-h-screen bg-seance-50' id='home'>
-					<Banner />
+					<Image
+						className='hidden md:block w-full lg:min-h-screen object-cover'
+						src='/images/desktop-mocks.webp'
+						alt='Desktop Mockups'
+						width={1600}
+						height={1600}
+						priority
+					/>
 					<Image
 						className='md:hidden w-full'
 						src='/images/mobile-mocks.webp'
@@ -111,15 +118,16 @@ export default function Home() {
 					<div className='container m-auto lg:m-0'>
 						<div className='max-w-3xl'>
 							<p className='text-2xl text-center mb-7 text-seance-950'>
-								&quot;Jonathan delivered a website redesign that transformed our
-								online presence. His thoughtful approach and problem-solving
-								skills were evident, even under tight deadlines. The increased
-								traffic and customer feedback speak volumes about his work. We
-								couldn&lsquo;t be happier.&quot;
+								&quot;Jonathan is a pleasure to work with. He understands our
+								needs and ensures we feel heard every step of the way. His
+								communication is top-notch, and the final website exceeded our
+								expectations, perfectly capturing our brand. Since working with
+								Jonathan, we’ve seen a significant increase in conversions on
+								all projects we’ve worked on. We couldn’t have asked for a
+								better partner and will continue to use him again in the
+								future!&quot;
 							</p>
-							<p className='text-lg text-center'>
-								Allison Abbott, Business Owner
-							</p>
+							<p className='text-lg text-center'>Allison Abbott</p>
 						</div>
 					</div>
 				</section>
