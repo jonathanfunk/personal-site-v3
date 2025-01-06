@@ -24,9 +24,24 @@ const projects = [
 		link: 'https://tradepros.ca/',
 		title: 'TradePros',
 		description:
-			'A project management office with a focus on construction shop drawings and quantity surveys. ',
+			'A project management office with a focus on construction shop drawings and quantity surveys.',
 		thumbnail: '/images/thumbnail-trade-pros.webp',
 		year: 2023,
+	},
+	{
+		link: 'https://growwithconfidence.ca/',
+		title: 'TFV Inc.',
+		description:
+			'leadership coaching and consulting firm based in Vancouver, BC',
+		thumbnail: '/images/thumbnail-tfv.webp',
+		year: 2020,
+	},
+	{
+		link: 'https://smokeandbones.ca/',
+		title: 'Smoke & Bones BBQ',
+		description: 'BBQ restaurant based in North Vancouver, BC',
+		thumbnail: '/images/thumbnail-smoke-and-bones.webp',
+		year: 2019,
 	},
 	{
 		link: 'https://humblemfg.com/',
