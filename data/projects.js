@@ -1,10 +1,10 @@
 const projects = [
 	{
-		link: 'https://montereybayrvrentals.com/',
-		title: 'Monterey Bay RV Rentals',
-		description: 'RV rental company based in Monterey Bay, California',
-		thumbnail: '/images/thumbnail-monterey-bay-rv-rentals.webp',
-		year: 2021,
+		link: 'https://www.racetrackrvrentals.com/',
+		title: 'Racetrack RV Rentals',
+		description: 'RV rental company for racetrack drivers and attendees',
+		thumbnail: '/images/thumbnail-racetrack-rv-rentals.webp',
+		year: 2024,
 	},
 	{
 		link: 'https://raisingwealth.com/',
