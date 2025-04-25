@@ -6,7 +6,7 @@ const LoadingWrapper = ({ className }) => (
 		target='_blank'
 		className={className}
 	>
-		Schedule a Call
+		Book a Discovery Call
 	</a>
 );
 

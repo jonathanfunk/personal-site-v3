@@ -15,7 +15,7 @@ const Calendly = ({ className }) => {
 	return (
 		<PopupButton
 			url='https://calendly.com/jonathan-funk/30-min'
-			text='Schedule a Call'
+			text='Book a Discovery Call'
 			rootElement={rootElement}
 			className={className}
 		/>

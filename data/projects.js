@@ -1,9 +1,9 @@
 const projects = [
 	{
-		link: 'https://www.racetrackrvrentals.com/',
-		title: 'Racetrack RV Rentals',
-		description: 'RV rental company for racetrack drivers and attendees',
-		thumbnail: '/images/thumbnail-racetrack-rv-rentals.webp',
+		link: 'https://montereybayrvrentals.com/',
+		title: 'Monterey Bay RV Rentals',
+		description: 'RV rental company based in Salinas, California',
+		thumbnail: '/images/thumbnail-monterey-bay-rv-rentals.webp',
 		year: 2024,
 	},
 	{
