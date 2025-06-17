@@ -1,7 +1,7 @@
 'use client';
+import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Scrollbar, A11y } from 'swiper/modules';
 import testimonials from '@/data/testimonials';
 
