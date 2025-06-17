@@ -3,7 +3,6 @@ import 'swiper/css';
 import 'swiper/css/pagination';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination, Scrollbar, A11y } from 'swiper/modules';
-import TestimonialSlide from '@/components/TestimonialSlide';
 import testimonials from '@/data/testimonials';
 
 const TestimonialSlider = () => {
