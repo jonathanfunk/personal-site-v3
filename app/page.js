@@ -6,7 +6,7 @@ import Counter from '@/components/Counter';
 import ProjectCard from '@/components/ProjectCard';
 import CTA from '@/components/CTA';
 import CalendlyDynamic from '@/components/CalendlyDynamic';
-import Banner from '@/components/Banner';
+import TestimonialSlider from '@/components/TestimonialSlider';
 
 export const metadata = {
 	title: 'Jonathan Funk | Web Designer',
@@ -115,21 +115,7 @@ export default function Home() {
 					className='px-7 py-20 lg:px-20 lg:py-36 bg-slate-50'
 					id='testimonial'
 				>
-					<div className='container m-auto lg:m-0'>
-						<div className='max-w-3xl'>
-							<p className='text-2xl text-center mb-7 text-seance-950'>
-								&quot;Jonathan is a pleasure to work with. He understands our
-								needs and ensures we feel heard every step of the way. His
-								communication is top-notch, and the final website exceeded our
-								expectations, perfectly capturing our brand. Since working with
-								Jonathan, we’ve seen a significant increase in conversions on
-								all projects we’ve worked on. We couldn’t have asked for a
-								better partner and will continue to use him again in the
-								future!&quot;
-							</p>
-							<p className='text-lg text-center'>Allison Abbott</p>
-						</div>
-					</div>
+          <TestimonialSlider />
 				</section>
 				<CTA />
 			</main>
