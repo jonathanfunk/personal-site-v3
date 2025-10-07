@@ -24,7 +24,7 @@ const projects = [
 		link: 'https://tradepros.ca/',
 		title: 'TradePros',
 		description:
-			'A project management office with a focus on construction shop drawings and quantity surveys.',
+			'A project management office with a focus on construction shop drawings and quantity surveys',
 		thumbnail: '/images/thumbnail-trade-pros.webp',
 		year: 2023,
 	},

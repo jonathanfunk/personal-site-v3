@@ -36,50 +36,68 @@ const Banner = () => {
 			<div className='flex gap-3 md:gap-5 rotate-[30deg]'>
 				<div className='md:w-[375px] md:h-[1600px]'>
 					<motion.div style={{ y: parallaxScrollDown }}>
-						<Image
-							src={
-								isMobile
-									? '/images/mobile-mocks-1.webp'
-									: '/images/desktop-mocks-column-1.webp'
-							}
-							alt='Website Mockups'
-							className='drop-shadow-md'
-							width={isMobile ? 300 : 375}
-							height={isMobile ? 1152 : 1446}
-							priority
-						/>
+            {/* Mobile Image */}
+            <Image
+              src="/images/mobile-mocks-1.webp"
+              alt="Website Mockups"
+              className="drop-shadow-md block md:hidden"
+              width={300}
+              height={1152}
+              priority
+            />
+            {/* Desktop Image */}
+            <Image
+              src="/images/desktop-mocks-column-1.webp"
+              alt="Website Mockups"
+              className="drop-shadow-md hidden md:block"
+              width={375}
+              height={1446}
+              priority
+            />
 					</motion.div>
 				</div>
 				<div className='md:w-[375px] md:h-[1600px]'>
 					<motion.div style={{ y: parallaxScrollUp }}>
-						<Image
-							src={
-								isMobile
-									? '/images/mobile-mocks-2.webp'
-									: '/images/desktop-mocks-column-2.webp'
-							}
-							alt='Website Mockups'
-							className='drop-shadow-md'
-							width={isMobile ? 300 : 375}
-							height={isMobile ? 1152 : 1446}
-							priority
-						/>
+            {/* Mobile Image */}
+            <Image
+              src="/images/mobile-mocks-2.webp"
+              alt="Website Mockups"
+              className="drop-shadow-md block md:hidden"
+              width={300}
+              height={1152}
+              priority
+            />
+            {/* Desktop Image */}
+            <Image
+              src="/images/desktop-mocks-column-2.webp"
+              alt="Website Mockups"
+              className="drop-shadow-md hidden md:block"
+              width={375}
+              height={1446}
+              priority
+            />
 					</motion.div>
 				</div>
 				<div className='md:w-[375px] md:h-[1600px]'>
 					<motion.div style={{ y: parallaxScrollDown }}>
-						<Image
-							src={
-								isMobile
-									? '/images/mobile-mocks-3.webp'
-									: '/images/desktop-mocks-column-3.webp'
-							}
-							alt='Website Mockups'
-							className='drop-shadow-md'
-							width={isMobile ? 300 : 375}
-							height={isMobile ? 1152 : 1446}
-							priority
-						/>
+          {/* Mobile Image */}
+          <Image
+            src="/images/mobile-mocks-3.webp"
+            alt="Website Mockups"
+            className="drop-shadow-md block md:hidden"
+            width={300}
+            height={1152}
+            priority
+          />
+          {/* Desktop Image */}
+          <Image
+            src="/images/desktop-mocks-column-3.webp"
+            alt="Website Mockups"
+            className="drop-shadow-md hidden md:block"
+            width={375}
+            height={1446}
+            priority
+          />
 					</motion.div>
 				</div>
 				{isMobile && (
