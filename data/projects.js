@@ -1,9 +1,9 @@
 const projects = [
 	{
-		link: 'https://montereybayrvrentals.com/',
-		title: 'Monterey Bay RV Rentals',
-		description: 'RV rental company based in Salinas, California',
-		thumbnail: '/images/thumbnail-monterey-bay-rv-rentals.webp',
+		link: 'https://breakawayrvrentals.com/',
+		title: 'Breakaway RV Rentals',
+		description: 'Online platform showcasing thousands of RVs for rent',
+		thumbnail: '/images/thumbnail-breakaway-rv-rentals.webp',
 		year: 2024,
 	},
 	{
@@ -14,11 +14,11 @@ const projects = [
 		year: 2023,
 	},
 	{
-		link: 'https://ondevancampervan.com/',
-		title: 'Ondevan Campervan',
-		description: 'Campervan rental company based in Hallandale Beach, Florida',
-		thumbnail: '/images/thumbnail-ondevan-campervan.webp',
-		year: 2020,
+		link: 'https://montereybayrvrentals.com/',
+		title: 'Monterey Bay RV Rentals',
+		description: 'RV rental company based in Salinas, California',
+		thumbnail: '/images/thumbnail-monterey-bay-rv-rentals.webp',
+		year: 2024,
 	},
 	{
 		link: 'https://tradepros.ca/',

@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import Hero from '@/components/Hero';
 import counters from '@/data/counters';
 import projects from '@/data/projects';
@@ -7,6 +7,7 @@ import ProjectCard from '@/components/ProjectCard';
 import CTA from '@/components/CTA';
 import CalendlyDynamic from '@/components/CalendlyDynamic';
 import TestimonialSlider from '@/components/TestimonialSlider';
+import Banner from '@/components/Banner';
 
 export const metadata = {
 	title: 'Jonathan Funk | Web Designer',
@@ -36,7 +37,8 @@ export default function Home() {
 			<Hero />
 			<main className='lg:w-1/2 lg:ml-[50%]'>
 				<section className='lg:min-h-screen bg-seance-50' id='home'>
-					<Image
+          <Banner />
+					{/* <Image
 						className='hidden md:block w-full lg:min-h-screen object-cover'
 						src='/images/desktop-mocks.webp'
 						alt='Desktop Mockups'
@@ -51,7 +53,7 @@ export default function Home() {
 						width={600}
 						height={300}
 						priority
-					/>
+					/> */}
 				</section>
 				<section className='px-7 py-20 lg:px-20 lg:py-36' id='about'>
 					<div className='container lg:max-w-xl m-auto lg:m-0'>

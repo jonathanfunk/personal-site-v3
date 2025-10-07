@@ -40,7 +40,7 @@ const Banner = () => {
 							src={
 								isMobile
 									? '/images/mobile-mocks-1.webp'
-									: '/images/desktop-mocks-1.webp'
+									: '/images/desktop-mocks-column-1.webp'
 							}
 							alt='Website Mockups'
 							className='drop-shadow-md'
@@ -56,7 +56,7 @@ const Banner = () => {
 							src={
 								isMobile
 									? '/images/mobile-mocks-2.webp'
-									: '/images/desktop-mocks-2.webp'
+									: '/images/desktop-mocks-column-2.webp'
 							}
 							alt='Website Mockups'
 							className='drop-shadow-md'
@@ -72,7 +72,7 @@ const Banner = () => {
 							src={
 								isMobile
 									? '/images/mobile-mocks-3.webp'
-									: '/images/desktop-mocks-3.webp'
+									: '/images/desktop-mocks-column-3.webp'
 							}
 							alt='Website Mockups'
 							className='drop-shadow-md'
